@@ -69,3 +69,114 @@ button:hover {
     color: #555;
     margin: 20px 0px 0px 0px;
 }
+
+.logo-produtos {
+    background-image: url('fundo.png');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.formulario {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #021750;
+    margin-bottom: 20px;
+}
+
+.entrada {
+    outline: none;
+    font-size: 15px;
+}
+
+.etiqueta {
+    display: block;
+    margin-bottom: 8px;
+    color: #021750;
+    font-weight: bold;
+    outline: none;
+}
+
+#assunto {
+    outline: none;
+    cursor: pointer;
+}
+
+span {
+    color: #555;
+    font-size: 15px;
+}
+
+.entrada, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #b2c2df;
+    border-radius: 9px;
+    font-size: 16px;
+
+}
+
+.numero {
+    width: 100px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #b2c2df;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+textarea {
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+.exit {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #021750, #3a59ad);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 10px 2px #537ae4;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.exit:hover {
+    box-shadow: 0 0 15px 4px #537ae4;
+    transform: scale(1.05);
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+select {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
