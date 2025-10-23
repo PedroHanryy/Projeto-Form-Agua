@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulário de Pedidos.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="logo-produtos">
+  <div class="formulario">
+
+    <div class="logo">
+    <img src="logo.png" alt="logo" width="200">
+    </div>
+
+    <h2>Pedidos - Àgua da Fonte.</h2>
+    <form>
+      <label class="etiqueta" for="nome">Nome</label>
+      <input class="entrada" type="text" placeholder="Digite seu Nome" name="nome" required />
+      
+      
+      <label class="etiqueta" for="email">E-mail</label>
+      <input class="entrada" type="email" placeholder="aguadafonte@exemplo.com" name="email" required />
+
+      <label class="etiqueta" for="telefone">Telefone de Contato</label>
+      <input class="entrada" type="tel" placeholder="(99) 9 9999-9999" name="telefone" />
+
+      <label class="etiqueta" for="endereco">Endereço da entrega</label>
+      <input class="entrada" type="address" placeholder="Rua Agua da Fonte" name="endereco" required />
+
+      <label class="etiqueta" for="endereco">Número</label>
+      <input class="numero" type="address" placeholder="Nº 99" name="endereco" required />
+
+      <label class="etiqueta" for="endereco">Pedido</label>
+      <select name="opcao" id="opcao">
+        <option value="" disabled selected>Selecione uma opção</option>
+        <option value="">Galão de Àgua (20 Litros)</option>
+        <option value="">Garrafa Àgua mineral - com gás (1 Litro)</option>
+        <option value="">Garrafa Àgua mineral - sem gás (1 Litro)</option>
+        <option value="">Garrafa Àgua mineral - com gás (500 Mililitros)</option>
+        <option value="">Garrafa Àgua mineral - sem gás (500 Mililitros)</option>
+        <option value="">Garrafa de Àgua destilada (5 Litros)</option>
+        <option value="">Garrafa de Àgua destilada (1 Litro)</option>
+      </select>
+
+      <label class="etiqueta" for="qunatidade">Qunatidade</label>
+      <input class="numero" type="number" placeholder="Ex: 10" name="qunatidade" min="1" max="100" required />
+
+      <label class="etiqueta" for="observacao">Observação</label>
+      <textarea name="message" id="obs" placeholder="Digite sua mensagem" rows="6"></textarea>
+
+      <button type="submit">Enviar</button>
+      <a href="index.html" class="exit">Sair</a>
+
+    </form>
+    <div class="footer">
+      &copy; 2025 Água da Fonte.
+    </div>
+  </div>
+</body>
+</html>
