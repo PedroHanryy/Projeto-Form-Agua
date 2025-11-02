@@ -140,6 +140,15 @@ span {
     font-size: 16px;
 }
 
+.quantidade {
+    width: 100px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #b2c2df;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
 textarea {
     outline: none;
     font-family: Arial, sans-serif;
